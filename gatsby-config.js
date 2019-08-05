@@ -3,7 +3,9 @@ const path = require("path")
 module.exports = {
   siteMetadata: {
     title: `The Donut Bar`,
+    seoTitle: `The Donut Bar - Fredericton`,
     description: `The Donut Bar is located in the heart of downtown Fredericton (A.K.A Freddy Beach). We are dedicated to delivering fresh-to-death gourmet donuts, and take pride in being the very first donut bar in the area.`,
+    keywords: `donut, bar, fredericton, freddy, donut bar`,
     siteUrl: `https://donut-bar.davidleger.me`,
   },
   plugins: [

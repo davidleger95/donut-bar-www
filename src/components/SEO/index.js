@@ -17,7 +17,9 @@ function SEO({ description, lang, meta, title }) {
         site {
           siteMetadata {
             title
+            seoTitle
             description
+            keywords
           }
         }
       }
@@ -25,7 +27,7 @@ function SEO({ description, lang, meta, title }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
-
+  const { seoTitle } = site.siteMetadata
   return (
     <Helmet
       htmlAttributes={{
@@ -40,7 +42,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:title`,
-          content: title,
+          content: seoTitle || title,
         },
         {
           property: `og:description`,
@@ -55,16 +57,16 @@ function SEO({ description, lang, meta, title }) {
           content: `summary`,
         },
         {
-          name: `twitter:creator`,
-          content: site.siteMetadata.author,
-        },
-        {
           name: `twitter:title`,
-          content: title,
+          content: seoTitle || title,
         },
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          name: "keywords",
+          content: keywords,
         },
       ].concat(meta)}
     />
@@ -72,7 +74,7 @@ function SEO({ description, lang, meta, title }) {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: `en-CA`,
   meta: [],
   description: ``,
 }

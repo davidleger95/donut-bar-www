@@ -21,7 +21,7 @@ const IndexPage = () => (
       </header>
       <div>
         <h2 className="heading-2">Location</h2>
-        <address className="location">346 Queen Street</address>
+        <address className="location">346 Queen Street, Fredericton</address>
       </div>
       <div>
         <h2 className="heading-2">Hours</h2>
