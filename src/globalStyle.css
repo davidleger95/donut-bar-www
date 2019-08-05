@@ -20,6 +20,11 @@ body {
   margin: 0;
 }
 
+#___gatsby {
+  display: grid;
+  position: relative;
+}
+
 h1,
 h2,
 h3,

@@ -13,7 +13,7 @@ const Background = styled.div`
   bottom: 0;
   left: 0;
   overflow: hidden;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
 `
 
