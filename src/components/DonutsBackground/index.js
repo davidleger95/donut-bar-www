@@ -55,7 +55,13 @@ export default function DonutsBackground() {
         rotate="-80"
         alt=""
       />
-      <Donut src={mm} right="calc(50vw - 700px)" bottom="-250px" size="700px" />
+      <Donut
+        src={mm}
+        right="calc(50vw - 700px)"
+        bottom="-250px"
+        size="700px"
+        alt=""
+      />
       <Donut
         src={luckyCharms}
         left="calc(25vw - 450px)"
