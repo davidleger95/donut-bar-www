@@ -14,6 +14,7 @@ const StyledFooter = styled.footer`
   color: white;
   text-transform: initial;
   font-style: italic;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
 
   a {
     color: inherit;
@@ -26,7 +27,9 @@ const StyledFooter = styled.footer`
   }
 `
 
-const Content = styled.p``
+const Content = styled.p`
+  padding: 0.1em 0.75em;
+`
 
 const Button = styled.button`
   background: rgba(255, 255, 255, 0.1);
@@ -49,7 +52,7 @@ const Footer = () => {
   return (
     <StyledFooter>
       <Content>
-        This website is a prototype by{" "}
+        This website is a prototype made by{" "}
         <a
           href="https://davidleger.me"
           target="_blank"
@@ -57,7 +60,7 @@ const Footer = () => {
         >
           David Leger
         </a>
-        . The real website for the Donut Bar is{" "}
+        . The real website for The Donut Bar is{" "}
         <a
           href="https://www.thedonutbarfreddy.com"
           target="_blank"

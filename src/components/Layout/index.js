@@ -7,15 +7,23 @@
 
 import React from "react"
 import PropTypes from "prop-types"
+import styled from "@emotion/styled"
 
 import DonutsBackground from "../DonutsBackground"
 import Footer from "../Footer"
+
+import "../../globalStyle.css"
+
+const Container = styled.main`
+  margin: auto;
+  max-width: 600px;
+`
 
 const Layout = ({ children }) => {
   return (
     <>
       <DonutsBackground />
-      <main>{children}</main>
+      <Container>{children}</Container>
       <Footer />
     </>
   )

@@ -10,6 +10,9 @@ const Nav = styled.nav`
   display: inline-block;
   margin: 0 auto 1em auto;
   font-size: 1.5em;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  text-align: center;
 
   @media (max-width: 540px) {
     color: white;
