@@ -1,0 +1,45 @@
+:root {
+  --gradient: radial-gradient(ellipse at 63% 30%, #ffffff 37%, #eeeeee 100%);
+  --dark: #292e34;
+
+  box-sizing: border-box;
+  color: var(--dark);
+  font-family: "DIN Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  background: var(--gradient);
+  text-align: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.Header-logo {
+  height: 10em;
+  mix-blend-mode: multiply;
+}
+
+.heading-2 {
+  margin-top: 2em;
+  font-size: 1em;
+}
+
+.hours-list {
+  padding: 0;
+  margin: 0;
+}
+
+.location,
+.hours-item {
+  font-size: 2em;
+  font-style: normal;
+  padding-bottom: 0.25em;
+}
