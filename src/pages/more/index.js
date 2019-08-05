@@ -3,7 +3,6 @@ import styled from "@emotion/styled"
 import Layout from "../../components/Layout"
 import SEO from "../../components/SEO"
 import Menu from "../../components/Menu"
-import { Link } from "gatsby"
 
 const MenuWrapper = styled.div`
   text-align: center;

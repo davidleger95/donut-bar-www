@@ -12,7 +12,6 @@ const Nav = styled.nav`
   font-size: 1.5em;
   text-transform: uppercase;
   margin-top: 1rem;
-  text-align: center;
 
   @media (max-width: 540px) {
     color: white;
@@ -98,6 +97,9 @@ export default function Menu() {
         {isOpen ? "Close" : "Menu"}
       </MobileMenuToggle>
       <MenuList isOpen={isOpen}>
+        <MenuItem>
+          <NavLink to="/">Home</NavLink>
+        </MenuItem>
         <MenuItem>
           <NavLink to="/donuts">Our Donuts</NavLink>
         </MenuItem>

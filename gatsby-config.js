@@ -4,6 +4,7 @@ module.exports = {
   siteMetadata: {
     title: `The Donut Bar`,
     description: `The Donut Bar is located in the heart of downtown Fredericton (A.K.A Freddy Beach). We are dedicated to delivering fresh-to-death gourmet donuts, and take pride in being the very first donut bar in the area.`,
+    siteUrl: `https://donut-bar.davidleger.me`,
   },
   plugins: [
     {
@@ -46,5 +47,6 @@ module.exports = {
         respectDNT: true,
       },
     },
+    "gatsby-plugin-sitemap",
   ],
 }

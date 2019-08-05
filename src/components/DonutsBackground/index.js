@@ -38,12 +38,14 @@ export default function DonutsBackground() {
         size="calc(15vw + 550px)"
         top="-300px"
         left="calc(15vw - 500px)"
+        alt=""
       />
       <Donut
         src={homer}
         size="calc(10vw + 400px)"
         right="calc(15vw - 200px)"
         top="-250px"
+        alt=""
       />
       <Donut
         src={electricMint}
@@ -51,6 +53,7 @@ export default function DonutsBackground() {
         top="10%"
         size="calc(15vw + 400px)"
         rotate="-80"
+        alt=""
       />
       <Donut src={mm} right="calc(50vw - 700px)" bottom="-250px" size="700px" />
       <Donut
@@ -58,6 +61,7 @@ export default function DonutsBackground() {
         left="calc(25vw - 450px)"
         bottom="-250px"
         size="600px"
+        alt=""
       />
     </Background>
   )
