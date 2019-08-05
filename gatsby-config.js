@@ -50,5 +50,15 @@ module.exports = {
       },
     },
     "gatsby-plugin-sitemap",
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://donut-bar.davidleger.me",
+        sitemap: "https://donut-bar.davidleger.me/sitemap.xml",
+        policy: [
+          { userAgent: "*", allow: "/", disallow: ["/admin", "/login"] },
+        ],
+      },
+    },
   ],
 }

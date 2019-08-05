@@ -27,10 +27,13 @@ const IndexPage = () => (
         <h2 className="heading-2">Hours</h2>
         <ul className="hours-list">
           <li className="hours-item">
-            <time>Tue-Fri: 7:30AM-Sold Out</time>
+            <time>Tue-Wed: 9:30 AM-5:00 PM</time>
           </li>
           <li className="hours-item">
-            <time>Sat: 10:00AM-Sold Out</time>
+            <time>Thu-Fri: 8:00 AM-3:00 PM</time>
+          </li>
+          <li className="hours-item">
+            <time>Sat: 10:00 AM-3:00 PM</time>
           </li>
           <li className="hours-item">
             <time>Sun-Mon: Closed</time>
